@@ -1,0 +1,41 @@
+body {
+  height: 2000px;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
+}
+
+#navbarNav a {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.category-header {
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #471c2c;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.product-card img:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
+    -2px -2px 5px rgba(255, 255, 255, 0.5);
+}
+.product-card {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.product-card h6 {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #471c2c;
+}
